@@ -1,0 +1,347 @@
+* {
+    margin: 0px;
+}
+
+.menu {
+
+    background-color: rgba(31, 26, 26, 0.959);
+    display: flex;
+    padding: 1px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+
+}
+
+.item {
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 50px;
+   
+    
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.item1 {
+    color: gold;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+}
+
+.item:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.item1:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.item2 {
+    color: gold;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+}
+
+.item2:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.form {
+   background-color:rgb(15, 1, 1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   width: 865px;
+   height: 320px;
+   margin-left: 300px;
+   
+   
+   
+}
+#form_login{
+ 
+ display: block;
+
+ 
+   
+
+ 
+}
+
+
+
+#chonnhamang {
+    width: 300px;
+    height: 30px;
+}
+
+#chonmenhgia {
+    width: 300px;
+    height: 30px;
+
+}
+
+.menhgia {
+    padding-top: 10px;
+
+
+}
+
+
+#maso {
+    width: 292px;
+    height: 25px;
+
+}
+
+.nhapmaso {
+    padding-top: 10px;
+}
+
+#maseri {
+    width: 292px;
+    height: 25px;
+}
+
+.soseri {
+    padding-top: 10px;
+}
+
+.video{
+  margin-left: 1px;  
+  margin-bottom: 100px;
+  margin-top: 105px;
+
+  
+}
+.button{
+
+    border: none; 
+   background-color:yellow;
+    color: black;
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}   
+button:hover{
+    background-color:#ccc;
+    color: black;
+    cursor: pointer;
+}
+.nap{
+    color:yellow;
+    margin-left: 90px;
+    margin-bottom: 20px;
+
+}
+
+.acclon{
+background:rgb(0,0,0,0.8);
+margin-top: 30px;
+width: 1200px;
+height: 1500px;
+margin-left: 120px;
+ 
+
+  
+}
+.acc{
+display: flex;
+
+margin-top: 30px;
+width: 1200px;
+height: 370px;
+margin-left: 0px;
+ 
+
+}
+.accnho{
+    display: flex;
+    
+    margin-top: 30px;
+    width: 1200px;
+    height: 370px;
+    margin-left: 0px; 
+}
+.lm{
+
+height: 50px;    
+color: yellow;
+font-size: 30px;  
+margin-left: 450px;
+width: 500px;
+margin-top: 40px;
+    
+}
+.quangcao{
+background-color: black;
+display: flex;
+align-items: end;  
+width: 100%;
+height: 160px;  
+
+}
+.h33{
+    color: azure;
+    padding-bottom: 90px;
+    margin-left: 250px;
+   
+    
+}
+
+.h44{
+    color:azure;
+    padding-bottom: 90px;
+    margin-left: 400px;
+    
+    
+
+}
+.acc1{
+
+   
+    height: 350px;
+    width: 280px;    
+    border: 1px solid cornflowerblue; 
+    margin-left: 15px;
+   
+    
+   
+    }
+    .acc2{
+
+   
+        height: 350px;
+        width: 280px;    
+        border: 1px solid cornflowerblue; 
+        margin-left: 15px;
+        margin-top: 10px;
+       
+        
+       
+        }
+        .tren{
+            
+            height: 200px;
+        }
+    .anh1 img {
+        height: 200px;
+        width: 278px;
+    }
+    .anh2 img{
+        height: 200px;
+        width: 278px;
+    }
+    .anh3 img {
+        height: 200px;
+        width: 278px;
+    }
+    .anh4 img {
+        height: 200px;
+        width: 278px;
+    }
+    .duoi{
+     
+     height: 200px;  
+    }
+    .tren1{
+        
+        height: 150px;
+    }
+
+    .duoi1{
+        
+        height: 150px;
+    }
+    .chu1{
+        color: yellow;
+        margin-left: 34px;
+        margin-top: 10px;
+    }
+    .chu2{
+        color: yellow;
+        margin-left: 80px;
+        margin-top: 1px;
+    }
+    .button1{
+
+        border: none;   
+       background-color:red;
+        color: #f5f5f5;
+        height: 30px;
+        width: 170px;
+        margin-left: 50px;
+        margin-top: 30px;
+        border-radius: 10px;
+        
+    }   
+    button1:hover{
+        background-color:#ccc;
+        color: black;
+        cursor: pointer;
+    }
+  
+    .button2{
+
+        border: none;   
+       background-color:rgb(242, 56, 56);
+        color: #f5f5f5;
+        height: 30px;
+        width: 170px;
+        margin-left: 50px;
+        margin-top: 30px;
+        border-radius: 10px;
+        
+    }   
+    button2:hover{
+        background-color:#ccc;
+        color: black;
+        cursor: pointer;
+    }
+    .chon{
+        text-decoration: none;  
+        color: yellow;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .chu3{
+        color: yellow;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    .thongbao{
+        
+        height: 400px;
+        width: 1160px;
+        background-color: aqua;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    h1{
+    margin-left: 10px;
+    margin-top: 5px;
+
+    }
+    h3{
+        font: sans-serif;
+        background-color: yellow;
+    }
+    

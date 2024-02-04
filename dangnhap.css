@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+}
+
+.menu {
+
+    background-color: black;
+    display: flex;
+    padding: 1px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+
+}
+
+.item {
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 50px;
+   
+    
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.item1 {
+    color: gold;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+}
+
+.item:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.item1:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.item2 {
+    color: gold;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+}
+
+.item2:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.form {
+   background-color:black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   width: 865px;
+   height: 320px;
+   margin-left: 300px;
+   
+   
+   
+}
+#form_login{
+ 
+ display: block;
+
+ 
+   
+
+ 
+}
+
+body {
+    background-image: url("./tiec-be-boi-4.jpg");
+    background-size: 100%;
+
+}
+
+#chonnhamang {
+    width: 300px;
+    height: 30px;
+}
+
+#chonmenhgia {
+    width: 300px;
+    height: 30px;
+
+}
+
+.menhgia {
+    padding-top: 10px;
+
+
+}
+
+
+#maso {
+    width: 292px;
+    height: 25px;
+
+}
+
+.nhapmaso {
+    padding-top: 10px;
+}
+
+#maseri {
+    width: 292px;
+    height: 25px;
+}
+
+.soseri {
+    padding-top: 10px;
+}
+
+.video{
+  margin-left: 1px;  
+  margin-bottom: 100px;
+  margin-top: 105px;
+
+  
+}
+.button{
+
+    border: none; 
+   background-color:yellow;
+    color: black;
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}   
+button:hover{
+    background-color:#ccc;
+    color: black;
+    cursor: pointer;
+}
+.nap{
+    color:yellow;
+    margin-left: 90px;
+    margin-bottom: 20px;
+
+}
+#wrapper{
+display:flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+#formdangnhap{
+    background: rgb(0,0,0,0.8);
+    width: 400px;
+    height: 230px;
+    padding:30px 30px 40px;
+    box-shadow:0px 0px 17px 2px rgba(255,255,255,0.8);
+}
+.form-heading{
+ font-size: 25px;
+ color: #f5f5f5;
+ text-align: center;
+ padding-bottom: 10px;
+    
+}
+
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+
+}
+#eye i{
+padding-right: 0;
+cursor: pointer;    
+}
+.form-group i{
+    color: #fff;
+    padding-right: 10px;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5; 
+    color: #fff;
+    width: 100%;
+    padding: 6px 10px; 
+    transition: 0.25s ease-in-out;  
+    margin-top: 30px; 
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+    cursor: pointer;
+}
+    
