@@ -18,6 +18,7 @@ function signUp() {
     .then((userCredential) => {  
         const user = userCredential.user;
         showUserInfo(user);
+        alert("Dang Ky Thanh Cong");
     })
     .catch((error) => {
         console.error('Lỗi đăng ký', error.message);

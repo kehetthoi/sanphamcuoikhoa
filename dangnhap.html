@@ -100,7 +100,7 @@
     </div>
     <br />
     <div id="wrapper">
-      <form onsubmit="signup()" action="" id="formdangnhap">
+      <form id="formdangnhap">
         <h1 class="form-heading">Đăng Nhập Tài Khoản</h1>
         <div class="form-group">
           <i class="far fa-user"></i>
@@ -123,11 +123,11 @@
             <i class="far fa-eye"></i>
           </div>
         </div>
-        <button class="form-submit" type="submit">Đăng Nhập</button>
+        <button class="form-submit" onclick="signIn()">Đăng Nhập</button>
         <input type="submit" value="Tạo Tài Khoản" class="form-submit" />
       </form>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="dangnhap.js"></script>
+  <script type="module" src="dangnhap.js"></script>
 </html>
