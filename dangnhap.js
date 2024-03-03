@@ -1,6 +1,6 @@
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -20,28 +20,30 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-``
 
+const form = document.getElementById("formdangnhap")
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    signIn()
+})
   
 function signIn() {
     const emailsi = document.getElementById('username').value;
     const passwordsi = document.getElementById('password').value;
-    const errorMessageElement = document.getElementById('error-message');
+    const errormessage = document.getElementById('error-message')
 
-    const auth = firebase.auth();
+    const auth = getAuth();
+signInWithEmailAndPassword(auth, emailsi, passwordsi)
+    .then((userCredential) => {  
+        const user = userCredential.user;
+        console.log('dang nhap thanh cong:'+user.email);
 
-    auth.signInWithEmailAndPassword(emailsi, passwordsi)
-        .then((userCredential) => {  
-            console.log(userCredential)
-            const user = userCredential.user;
-            console.log('đăng nhập thành công: ' + user.email);
-
-            
-        })
-        .catch((error) => {
-            console.error('Lỗi đăng nhập', error.message);
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            errorMessageElement.textContent = errorMessage;
-        });
+        window.location.href = 'taikhoandangnhap.html';
+    })
+    .catch((error) => {
+        console.error('Lỗi đăng nhap', error.message);
+        var errorcode = error.code;
+        var errormessage = error.message;
+        errormessage.textContent = errormessage;
+    });
 }
